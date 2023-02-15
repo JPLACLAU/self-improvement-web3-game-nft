@@ -10,29 +10,17 @@ pragma solidity ^0.8.checklatestversion;
  */
 
 contract SelfImprovementList {
-            enum SubscriptionType { Free, 1usd, 10usd, 100usd, 1000usd, 10000usd, VC };
+            enum SubscriptionType { Free, 1usd, 10usd, 100usd, 1000usd, 10000usd, 100000usd, VC };
 
-
-
-    struct Subsribers {
+    struct BetterSelf {
         address _subscriptoraddress;
         SubscriptionType type;
-        
-
+        uint _xp;
+        uint _moneyxp;
+        string _name;     
     }
-          // Type Declarations
-          // State variables
-          // Events
-          // Modifiers
-          // Functions Order:
-          //// constructor
-          //// receive
-          //// fallback
-          //// external
-          //// public
-          //// internal
-          //// private
-          //// view / pure
+
+         
 
 }
 
